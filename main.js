@@ -36,6 +36,10 @@ const signAccessTokenService = async (payload) => {
   });
 };
 
+/*
+ * Routes
+ */
+
 app.get("/api", function (req, res) {
   res.json({
     text: "my api!",
